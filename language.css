@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+/*font-family: 'Inter', sans-serif;*/
+
+body {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom 2% right 20%;
+  position: relative;
+  overflow-y: scroll;
+  background-color: #FAF3D7;
+  display: block;
+  margin: 1px;
+  background-image: url('/assets/background-2.png');
+  /*overflow: hidden;*/
+}
+
+.logo-corner{
+  width: 20%;
+  height: 10%;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.language-header {
+  font-family: 'Fredoka', sans-serif;
+  color: black;
+  text-align:center;
+  padding: 2%;
+  font-size: 3vw;
+  
+}
+
+.flags-div{
+  display: flex;
+  padding-left: 3%;
+  justify-content: space-between;
+  margin: auto;
+  width: 50%;
+}
+
+figcaption{
+  width:80%;
+  color: black;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
+}
+
+.flags{
+  width: 80%
+}
+
+.unselectable {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.container {
+  width:80%;
+  margin: 0 auto;
+}
+
+navigation {
+  background: #ffbf94;
+}
+
+navigation::after{
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float:right;
+}
+
+nav ul{
+  margin: 0;
+  paddng: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  position: relative;
+}
+
+nav a {
+  font-family:'Fredoka', sans-serif;
+  color: #474747;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 22px;
+}
+
+nav a:hover{
+  color: #000
+}
+
+nav a::before{
+  content: ' ';
+  display: block;
+  height: 3px;
+  background-color:#f57830 ;
+  
+  position: absolute;
+  bottom:0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+

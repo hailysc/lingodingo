@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+
+
+html, body {
+  height: 100%;
+  /*width: 100%;
+  background-image: url('assets/chinese bookshelf.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+}
+
+body {
+  background-color: #FAF3D7;
+ /* background-size: 80%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom 0% right 50%;
+  position: relative;
+  overflow: hidden;
+  background-color: #FAF3D7;
+  display: block;
+  margin: 1px;*/
+    overflow-x: hidden;
+}
+
+.logo-corner{
+  width: 20%;
+  height: auto;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.bookshelf-img{
+  width: 65%;
+  height: auto;
+  margin-left: 18%;
+}
+
+.headerSection{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  user-select: none;
+}
+
+.recHeader{
+  font-size: 3.5vw;
+  /*font-family:'Inter', sans-serif;*/
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  user-select: none;
+  color: #f57830;
+}
+
+.whysubHeader{
+  font-family:'Inter', sans-serif;
+  font-size: 1.5vw;
+  user-select: none;
+}
+
+.recGroup {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  user-select: none;
+}
+
+h2{
+  font-size: 2vw;
+  font-family: 'Fredoka One', cursive;
+}
+
+h3{
+  color: #f57830;
+  font-size: 1.2vw;
+  font-family:'Inter', sans-serif;
+}
+
+.description{
+  font-family:'Inter', sans-serif;
+  font-size: 1.5vw
+}
+
+nav {
+  float:right;
+}
+
+nav ul{
+  margin: 0;
+  padding-top: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 30px;
+  margin-left: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  position: relative;
+}
+
+nav a {
+  font-family:'Fredoka', sans-serif;
+  color: #474747;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 22px;
+}
+
+nav a:hover{
+  color: #000
+}
+
+nav a::before{
+  content: ' ';
+  display: block;
+  height: 3px;
+  background-color:#f57830 ;
+  
+  position: absolute;
+  bottom:0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+

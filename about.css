@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+/*font-family: 'Inter', sans-serif;*/
+
+
+body {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom 2% right 20%;
+  position: relative;
+  overflow-y: scroll;
+  background-color: #FAF3D7;
+  display: block;
+  margin: 1px;
+}
+
+.border{
+  border: dotted 1vw #f5782f;
+  border-radius: 50%;
+}
+
+
+.teamTitle {
+  font-family: 'Fredoka', sans serif;
+  color: black;
+  text-align:center;
+  padding: 5% 0;
+  font-size: 2.5em;
+}
+
+.imagesOfPeople {
+  display: flex;
+  flex-direction: row;
+  font-family:'Inter', sans-serif;
+}
+
+h1{
+  width: 50%;
+  margin:auto;
+}
+
+.missionTitle{
+  font-family: 'Fredoka', sans serif;
+  color: black;
+  text-align:center;
+  padding: 0 0;
+  font-size: 2.5em;
+}
+.main{
+  width: 85%;
+}
+.missionCaption{
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Inter', sans serif;
+  color: black;
+  margin-left: 20%;
+  padding: 0 0;
+  font-size: 20px;
+  padding: 0 0;
+  font-size: 20px;
+}
+
+.bold{
+  font-family: 'Inter', sans serif;
+  font-weight: 900;
+  color: #f5782f;
+}
+.peopleCaption1 {
+  display: flex;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.peopleCaption2 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.peopleCaption3 {
+  display: flex;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.peopleCaption4 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.peopleCaption5 {
+  display: flex;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.peopleCaption6 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.peopleCaption7 {
+  display: flex;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.peopleCaption8 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.unselectable {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.logo-corner{
+  width: 20%;
+  height: auto;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+nav {
+  float:right;
+}
+
+nav ul{
+  margin: 0;
+  paddng: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 30px;
+  margin-left: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  position: relative;
+}
+
+nav a {
+  font-family:'Fredoka', sans-serif;
+  color: #474747;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 22px;
+}
+
+nav a:hover{
+  color: #000
+}
+
+nav a::before{
+  content: ' ';
+  display: block;
+  height: 3px;
+  background-color:#f57830 ;
+  
+  position: absolute;
+  bottom:0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
